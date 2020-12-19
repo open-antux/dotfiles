@@ -2,7 +2,7 @@
 
 lightdm, bspwm, sxhkd, polybar e conky.
 
-## Dipendenze
+## Dipendences
 
 #### Lightdm
 
@@ -19,18 +19,20 @@ $ sudo pacman -U https://archive.archlinux.org/packages/l/light-locker/light-loc
 #### bspwm
 
 ```bash
-$ yay -S bspwm nitrogen lxsession wmname
+$ yay -S bspwm nitrogen lxsession lxappearance wmname
 ```
 
-`nitrogen` is meant to set the background every time when bspwm starts,` lxsession` will be used for polkits and `wmname` to avoid any [Java bug](https://wiki.archlinux.org/index.php/Bspwm#Problems_with_Java_applications).
+`nitrogen` is meant to set the background every time when bspwm starts, `lxsession` will be used for polkits and `wmname` to avoid any [Java bug](https://wiki.archlinux.org/index.php/Bspwm#Problems_with_Java_applications).
 
 #### sxhkd
 
 ```bash
-$ yay -S sxhkd pamixer
+$ yay -S sxhkd pamixer rofi
 ```
 
 `pamixer` it is necessary to manage the audio also from the keys.
+
+`rofi` to launch program.
 
 #### Polybar
 
@@ -59,7 +61,7 @@ This is to indicate when there are updates, and possibly open `pamac-manager`. I
 $ yay -S conky
 ```
 
-## Installazione
+## Installation
 
 ```
 .
@@ -81,4 +83,28 @@ The bspwm folder must be copied to the ~/.config/directory
 
 The lightdm config file must be copied to the /etc/lightdm/directory
 
+## Tips
 
+#### GTK3
+
+If you have a GTK3 theme, and you want to set it to whole entire system, you have to create the file ~/.config/gtk-3.0/settings.ini:
+
+```bash
+[Settings]
+gtk-icon-theme-name=Papirus-Dark
+gtk-theme-name=deepin-dark
+gtk-font-name=Cantarell 11
+gtk-cursor-theme-name=bloom
+gtk-cursor-theme-size=0
+gtk-toolbar-style=GTK_TOOLBAR_BOTH
+gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
+gtk-button-images=1
+gtk-menu-images=1
+gtk-enable-event-sounds=1
+gtk-enable-input-feedback-sounds=1
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle=hintfull
+```
+
+ Instead of `bloom` and `Papirus-Dark` set the themes that you prefer.
