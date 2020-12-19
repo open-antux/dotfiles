@@ -1,0 +1,96 @@
+conky.config = {
+
+  -- Init settings
+
+	background = true, 							
+	cpu_avg_samples = 6,						
+	diskio_avg_samples = 10,				
+	double_buffer = true,						
+	if_up_strictness = 'address',				
+	net_avg_samples = 2,						
+	-- no_buffers = true,							
+	temperature_unit = 'celsius',			
+	text_buffer_size = 2048,					
+	update_interval = 1,							
+                  
+  -- Position
+  
+  gap_x = 10, 
+  gap_y = 10, 
+  alignment = 'middle_right',
+  minimum_height = 200,
+  minimum_width = 300,
+  -- maximum_width = 300,
+
+  -- Graphical
+  
+  border_inner_margin = 5, 					
+	border_outer_margin = 5, 					
+	border_width = 0, 							
+	default_bar_width = 280,					
+	default_bar_height = 10,					
+	default_gauge_height = 25,				
+	default_gauge_width =40,					
+	default_graph_height = 40,					
+	default_graph_width = 153,					
+	default_shade_color = '#000000',			
+	default_outline_color = '#000000',		
+	draw_borders = false,					
+	draw_graph_borders = true,					
+	draw_shades = false,						
+	draw_outline = false,						
+	stippled_borders = 0,		
+
+  -- Text
+
+  format_human_readable = true,
+  font = 'Hack:size=10:regular',
+  override_utf8_locale = true,
+  top_name_verbose = true,
+  use_spacer = 'none',
+  use_xft = true,
+  xftalpha = 1,
+
+  -- Windows
+  
+  own_window = true,
+  -- own_window_argb_value = 150,
+  -- own_window_argb_visual = true,
+  own_window_class = 'Conky',
+  own_window_colour = '#000000',
+  own_window_hints = 'undecorated,below,above,sticky,skip_taskbar,skip_pager',
+  own_window_transparent = true,
+  own_window_title = 'system_conky',
+  own_window_type = 'desktop',
+  
+  -- Colours
+  color1 = '#FF0000',
+  color2 = '#008000',
+  color3 = '#0000FF',
+  color4 = '#FFFFFF',
+  color5 = '#000000'
+ 
+};
+
+conky.text = [[
+    
+  ${alignc}ArchLinux
+  ${alignc}$kernel
+  ${color4}${hr}${color}
+
+  ${alignc}Memoria
+  Root: ${fs_used /}/${fs_size}
+  RAM : ${mem}/${memmax}
+  Swap: ${swap}/${swapmax}
+
+  ${alignc}Processore
+  CPU 1: ${cpu cpu0}% | ${freq_g 1} GHz | ${hwmon 0 temp 1}°C
+  CPU 2: ${cpu cpu1}% | ${freq_g 2} GHz | ${hwmon 0 temp 2}°C
+  CPU 3: ${cpu cpu2}% | ${freq_g 3} GHz | ${hwmon 0 temp 3}°C
+  
+  ${color4}${hr}${color}
+  Lorem ipsum dolor sit amet, 
+  consectetur adipisci elit, 
+  sed do eiusmod tempor incidunt 
+  ut labore et dolore magna aliqua. 
+]]
