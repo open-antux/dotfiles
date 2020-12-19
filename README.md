@@ -22,7 +22,7 @@ $ sudo pacman -U https://archive.archlinux.org/packages/l/light-locker/light-loc
 $ yay -S bspwm nitrogen lxsession wmname
 ```
 
-`nitrogen` is meant to set the background every time when bspwm starts,` lxsession` will be used for polkits and `wmname` to avoid any [Java bug](https://wiki.archlinux.org/index .php/Bspwm#Problems_with_Java_applications).
+`nitrogen` is meant to set the background every time when bspwm starts,` lxsession` will be used for polkits and `wmname` to avoid any [Java bug](https://wiki.archlinux.org/index.php/Bspwm#Problems_with_Java_applications).
 
 #### sxhkd
 
