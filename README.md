@@ -107,4 +107,11 @@ gtk-xft-hinting=1
 gtk-xft-hintstyle=hintfull
 ```
 
- Instead of `bloom` and `Papirus-Dark` set the themes that you prefer.
+ And also in \~/.index/default/index.theme:
+
+```bash
+[icon theme]
+Inherits=bloom
+```
+
+Instead of `bloom` and `Papirus-Dark` set the themes that you prefer.
