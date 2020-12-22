@@ -7,13 +7,7 @@ lightdm, bspwm, sxhkd, polybar e conky.
 #### Lightdm
 
 ```bash
-$ yay -S lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
-```
-
-There is a [bug](https://bugs.archlinux.org/task/68905?project=5&string=light-locker) with `light-locker` which prevents you from returning to the previous session after locking, so I recommend to downgrade to version 1.9.0-2:
-
-```bash
-$ sudo pacman -U https://archive.archlinux.org/packages/l/light-locker/light-locker-1.9.0-2-x86_64.pkg.tar.zst
+$ yay -S lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan light-locker
 ```
 
 #### bspwm
