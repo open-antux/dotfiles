@@ -21,12 +21,23 @@ $ yay -S bspwm nitrogen lxsession lxappearance wmname
 #### sxhkd
 
 ```bash
-$ yay -S sxhkd pamixer rofi
+$ yay -S sxhkd pamixer albert
 ```
 
 `pamixer` è necessario per gestire l'audio anche dai tasti.
 
-`rofi` per avviare i programmi.
+##### Albert Launcher
+
+`albert` è un applicazione per lanciare i programmi. Ha bisogno di una particolare configurazione per integrarsi (ed essere visivamente apprezzabile) con bspwm.
+Consiglio di tenere abilitate nella sezione "User Interface" le seguenti opzioni:
+
+- Display icons
+
+- Always center Albert
+
+- Always on top
+
+- Hide on focus out
 
 #### Polybar
 

@@ -26,7 +26,17 @@ $ yay -S sxhkd pamixer rofi
 
 `pamixer` it is necessary to manage the audio also from the keys.
 
-`rofi` to launch program.
+##### Albert Launcer
+
+`albert` is an application for launching programs. It needs a special configuration to integrate (and be visually appealing) with bspwm. I recommend keeping the following options enabled in the "User Interface" section:
+
+- Display icons
+
+- Always center Albert
+
+- Always on top
+
+- Hide on focus out
 
 #### Polybar
 
