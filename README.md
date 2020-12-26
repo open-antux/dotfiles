@@ -21,7 +21,7 @@ $ yay -S bspwm nitrogen lxsession lxappearance wmname
 #### sxhkd
 
 ```bash
-$ yay -S sxhkd pamixer rofi
+$ yay -S sxhkd pamixer albert 
 ```
 
 `pamixer` it is necessary to manage the audio also from the keys.
