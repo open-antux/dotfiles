@@ -5,6 +5,9 @@
 # Keyhook
 pgrep -x sxhkd > /dev/null || sxhkd -c $HOME/.config/bspwm/sxhkd/sxhkdrc &
 
+# Picom
+picom --config $HOME/.config/bspwm/picom.conf &
+
 # Session for polkit
 lxsession &
 
