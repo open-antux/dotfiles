@@ -13,7 +13,7 @@ $ yay -S lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan light-loc
 #### bspwm
 
 ```bash
-$ yay -S bspwm nitrogen lxsession lxappearance wmname
+$ yay -S bspwm nitrogen lxsession lxappearance wmname picom
 ```
 
 `nitrogen` ha lo scopo di impostare lo sfondo ogni volta all'avvio di bspwm, `lxsession` verrà utilizzato per i polkit e `wmname` per evitare evenutali [bug di Java](https://wiki.archlinux.org/index.php/Bspwm#Problems_with_Java_applications)
