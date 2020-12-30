@@ -7,7 +7,7 @@ lightdm, bspwm, sxhkd, polybar e conky.
 #### Lightdm
 
 ```bash
-$ yay -S lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan light-locker
+$ yay -S lightdm lightdm-webkit2-greeter lightdm-webkit-theme-litarvan light-locker numlockx
 ```
 
 #### bspwm
@@ -42,7 +42,7 @@ Consiglio di tenere abilitate nella sezione "User Interface" le seguenti opzioni
 #### Polybar
 
 ```bash
-$ yay -S polybar bdf-unifont siji-git pamac-manager
+$ yay -S polybar bdf-unifont siji-git pamac-all
 ```
 
 Nel config file di `polybar` c'è un modulo personalizzato:
