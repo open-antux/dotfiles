@@ -20,7 +20,7 @@ $ yay -S nitrogen lxsession lxappearance wmname picom rofi
 
 Fatto ciò, si può compilare dwm:
 ```bash
-dotfiles/dwm/dwm # make install
+dotfiles/dwm/dwm $ sudo make install
 ```
 #### Polybar
 
