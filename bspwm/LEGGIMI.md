@@ -87,10 +87,8 @@ $ yay -S conky
         └── lightdm-webkit2-greeter.conf
 ```
 
-La cartella bspwm, deve essere copiata nella directory \~/.config/
-
-Il file config di lightdm, deve essere copiati nella directory /etc/lightdm/
-
+Copiare i file nelle rispettive cartelle (i file in .config vanno messi nella tua home/.config).
+ 
 ## Consigli
 
 #### GTK3
