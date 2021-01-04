@@ -29,49 +29,6 @@ $ yay -S polybar-dwm-module bdf-unifont siji-git
 ```
 
 ## Installazione
-
-```
-├── .config
-│   └── dwm
-│       ├── autostart.sh
-│       ├── picom
-│       │   └── picom.conf
-│       └── polybar
-│           ├── bar.sh
-│           └── config
-├── dwm
-│   ├── config.def.h
-│   ├── config.h
-│   ├── config.mk
-│   ├── drw.c
-│   ├── drw.h
-│   ├── drw.o
-│   ├── dwm
-│   ├── dwm.1
-│   ├── dwm.c
-│   ├── dwm-msg
-│   ├── dwm-msg.c
-│   ├── dwm-msg.o
-│   ├── dwm.o
-│   ├── ipc.c
-│   ├── IPCClient.c
-│   ├── IPCClient.h
-│   ├── ipc.h
-│   ├── layouts.c
-│   ├── LICENSE
-│   ├── Makefile
-│   ├── transient.c
-│   ├── util.c
-│   ├── util.h
-│   ├── util.o
-│   ├── yajl_dumps.c
-│   └── yajl_dumps.h
-└── etc
-    └── lightdm
-        ├── lightdm.conf
-        └── lightdm-webkit2-greeter.conf
-```
-
 Copiare i file nelle rispettive cartelle (i file in .config vanno messi nella tua home/.config).
 
 ## Consigli

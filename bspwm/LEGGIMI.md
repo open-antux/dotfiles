@@ -67,26 +67,6 @@ $ yay -S conky
 ```
 
 ## Installazione
-
-```
-.
-├── .config
-│   └── bspwm
-│       ├── bspwmrc
-│       ├── conky
-│       │   └── config
-│       ├── picom.conf
-│       ├── polybar
-│       │   ├── config
-│       │   └── launch.sh
-│       └── sxhkd
-│           └── sxhkdrc
-└── etc
-    └── lightdm
-        ├── lightdm.conf
-        └── lightdm-webkit2-greeter.conf
-```
-
 Copiare i file nelle rispettive cartelle (i file in .config vanno messi nella tua home/.config).
  
 ## Consigli
