@@ -303,10 +303,9 @@ label = %percentage_used%%
 type = internal/network
 interface = wlo1
 interval = 3.0
-
 format-connected = <ramp-signal> <label-connected>
 ;format-connected-underline = #9f78e1
-label-connected = %essid%
+label-connected = %{A1:nm-connection-editor:}%essid%%{A}
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -484,10 +483,10 @@ menu-0-3 = logout
 menu-0-3-exec = menu-open-4
 
 menu-1-0 = reboot
-menu-1-0-exec = sudo reboot
+menu-1-0-exec = reboot
 
 menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
+menu-2-0-exec = poweroff
 
 menu-3-0 = lock
 menu-3-0-exec = lxlock
